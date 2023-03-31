@@ -1,0 +1,62 @@
+Open and closed set - open sets do not include points at the boundary, a closed set includes the points at a boundry.
+
+Cartesian product - the set of all ordered pairs (a,b) formed when two sets (set A and set B) are multiplied together.
+
+Compactness, connectedness and continuity - Compactness describes a finite set of open covers that exist for a particular set. Connectedness is when a set shares a boundary or when several elements overlap with another set (union of two or more non empty open sets). Continuity deals with functions and describes how elements can be mapped between different sets.
+
+Topological space, vector space, metric space, Locally convex space, Normed vector space and inner product space - a topological space is the broadest space listed and includes notion of open and closed sets in the space and the concept of closeness. A vector space includes vectors and how they can be added or multiplied together. A metric space includes a set with distance defined between elements. A locally convex space is a vector space with a topology induced by seminorms. Normed vector space is a vector space with a norm function defined in it. An inner product space is a vector space with an inner product defined in it.
+
+Norm - also referred to as "vector norm," is a function that assigns a positive value to each vector in a vector space. It can represent magnitude or size.
+
+Dot product and cross product - the dot product of two vectors refers to the sum of the products of their corresponding components (if u = (u1, u2, u3) and v = (v1, v2, v3) are two vectors, then their dot product is given by:u · v = u1v1 + u2v2 + u3v3.) The cross product of two vectors is a third vector that is perpendicular to both of the original vectors. Ex. if u = (u1, u2, u3) and v = (v1, v2, v3) are two vectors, then their cross product is given by:u x v = (u2v3 - u3v2, u3v1 - u1v3, u1v2 - u2v1).
+
+Projection - a transformation that maps a vector onto a subspace, yielding the closest vector in that subspace to the original vector.
+
+Linear transformation - a function that maps one vector space to another that also keeps the properties of addition and scalar multiplication.
+
+Write a system of linear equations as a matrix
+2x + y - z = 5
+x - 3y + 2z = -4
+4x + 2y - z = 3
+
+| 2  1 -1 |   | x |   | 5 |
+| 1 -3  2 | x | y | = |-4 |
+| 4  2 -1 |   | z |   | 3 |
+
+Identity matrix – a square matrix with ones on the diagonal and zeros everywhere else. You can use an identity matrix to solve linear equations, find inverse matrices, and calculate eigenvalues and eigenvectors.
+
+Determinant - a scalar value that represents certain properties of amatrix. It often represents coefficients in a system of linear equations.
+
+Canonical form of a matrix - the simplest representation of the information contained in a matrix.
+
+Matrix decomposition - process of expressing a matrix as a product of simpler matrices. Ex: eigendecomposition (learned in class), LU decomposition, QR decomposition
+
+Change of basis - process of representing a vector with respect to a different basis. It involves finding the transformation matrix that maps the original basis to the new basis.
+
+Eigendecomposition - process of decomposing a square matrix into a set of eigenvectors and eigenvalues. It is used to understand the behavior of linear transformations and to diagonalize matrices.
+
+PCA - technique used in machine learning and data analysis to reduce the dimensionality of a dataset while retaining the most important information. It involves finding the principal components of the data, which include maximizing variance.
+
+SVD - a matrix decomposition technique used to factorize a matrix into three matrices: a diagonal matrix of singular values, a matrix of left singular vectors, and a matrix of right singular vectors. It is commonly used in machine learning for dimensionality reduction.
+
+Characteristic equation and characteristic polynomial - The characteristic equation is a polynomial equation of degree n, where n = size of a square matrix A. It is defined as det(A - λI) = 0, where λ = a scalar value and I = identity matrix. The characteristic polynomial is the polynomial obtained by expanding the determinant of A - λI.
+
+Encoder and decoder - an encoder changes basis from standard basis to eigenbasis. A decoder transforms the eigenbasis back to standard basis
+
+Joint probability distribution function - the probability distribution of all possible pairs of outputs. It is used to model the probability distribution of a system involving multiple variables.
+
+Conditional probability distribution function - the conditional probability distribution function is a function that assigns probabilities to all possible combinations of values for two or more random variables, given the value of another random variable.
+
+Marginal distribution - the PDF or PMF of the individual variable without any constraint of the other variables
+
+Mutual information - a measure of the amount of information that two random variables share, or the difference between the entropy of the joint probability distribution function and the sum of the entropies of the marginal probability distribution functions.
+
+Covariance vs. correlation - covariance measures the degree to which to variables vary together. Correlation measures the degree to which they vary together relative to their individual scales.
+
+Feature vectors - vectors that represent a set of features or attributes of an object.
+
+Matrix rank - the maximum number of linearly independent rows or columns of a matrix.
+
+Frobenius norm - aka the Euclidean norm, is a matrix norm of an m x n matrix A defined as the square root of the sum of the absolute squares of its elements.
+
+Low rank approximation - involves using a matrix of lower rank to approximate another matrix.
